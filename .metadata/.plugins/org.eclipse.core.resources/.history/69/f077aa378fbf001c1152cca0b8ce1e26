@@ -1,0 +1,19 @@
+
+public abstract class FuncionarioAutenticavel extends Funcionario {
+
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public boolean autentica(int senha) {
+
+		if (super.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

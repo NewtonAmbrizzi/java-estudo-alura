@@ -1,0 +1,16 @@
+
+public class SistemaInterno {
+
+	int senha = 2222;
+	
+	public void autentica(Gerente gerente) {
+		boolean autenticou = gerente.autentica(this.senha);
+		if (autenticou) {
+			System.out.println("Entrou no Sistema");
+		} else {
+			System.out.println("Não entrou no Sistema");
+
+		}
+	}
+	
+}

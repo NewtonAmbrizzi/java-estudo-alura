@@ -1,0 +1,8 @@
+
+public class CalculadorDeImposto {
+
+	public void regitra(Tributavel t) {
+		t.getValorImposto();
+	}
+	
+}
